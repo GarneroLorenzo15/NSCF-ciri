@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      const response = await fetch("https://ncsf-sitoweb-production.up.railway.app/", {
+      const response = await fetch("https://nscf-ciri-production.up.railway.ap", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ textarea: textValue }),
